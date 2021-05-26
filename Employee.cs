@@ -7,7 +7,7 @@ namespace Classes
     public class Employee
     {
         // Some readonly properties (let's talk about gets, baby)
-        // We will establish the properties of the class of Employee to later be defined
+        // We will establish the properties of the class of Employee to later be modified
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Title { get; set; }

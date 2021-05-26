@@ -1,7 +1,7 @@
-// Slightly similar to Reacyt, we need to import the System 
+// Slightly similar to React, we need to import the System 
 using System;
 
-// In order to use List we need to import a generic System Collection
+// In order to use List (not recognized in C#) we need to import a generic System Collection
 using System.Collections.Generic;
 
 // This allows classes to be used throughout the code. 
@@ -19,7 +19,7 @@ namespace Classes
 
         // Create a public property for holding a list of current employees
         // Set is used to modify the thing
-        // 'News Flash: Declaring a property gives it an initial vlaue of null' -Chapter 12, Bangazon
+        // 'News Flash: Declaring a property gives it an initial value of null' - Chapter 12, Bangazon
         public List<Employee> CurrentEmployees { get; set; }
 
         /*
