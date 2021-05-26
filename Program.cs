@@ -54,7 +54,7 @@ namespace Classes
             */
             foreach (Employee person in MikoDot.CurrentEmployees)
             {
-                Console.WriteLine($"{person.FirstName} {person.LastName} Works at {MikoDot.Name} as a(an) {person.Title} starting on {person.StartDate.ToString("d")} ");
+                Console.WriteLine($"{person.FirstName} {person.LastName} works at {MikoDot.Name} as a(an) {person.Title} starting on {person.StartDate.ToString("d")} ");
             }
 
         }
